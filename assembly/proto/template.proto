@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package template;
+
+// @description example
+// @read-only false
+message example_arguments {
+    int64 value = 1;
+}
+
+message example_result {
+    int64 value = 1;
+}

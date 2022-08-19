@@ -1,0 +1,9 @@
+node_modules
+build
+\.idea/
+\.vs/
+*.wasm
+*.pb
+*.spec.map
+*.spec.wat
+yarn-error.log
