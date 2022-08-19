@@ -736,18 +736,18 @@
   resolved "https://registry.yarnpkg.com/@koinos/proto-js/-/proto-js-0.4.0.tgz#f55c225ff0caf446ba950bf4d8253cb28eb5bd53"
   integrity sha512-6Xciwa1YrALwat7iRkYiQX/H8zvk/Qamo7iBtwAIZeyZTEEfxSaRrSB2f4pLzk9Ian6O4CmuRxHkr8Cws6FQNw==
 
-"@koinos/sdk-as-cli@^0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@koinos/sdk-as-cli/-/sdk-as-cli-0.4.0.tgz#f66d192117ff7d29405b57fcaa02431ade27cf88"
-  integrity sha512-/0QplfOaqQk6X00OrETpda9oxLjSam0FNglRwdJFoMQX+Lr4l/BcXMnp1E2yliX8SCj+vRDQVzhJK6BC1JGeKA==
+"@koinos/sdk-as-cli@^0.4.1":
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/@koinos/sdk-as-cli/-/sdk-as-cli-0.4.1.tgz#17ff0bb3b5d00028e8278568d4664ba3e95566cb"
+  integrity sha512-kB3e8LBl1DooLBScPS9SWRg5wuIgg93bPUBZc5/ZxsSje6p0qbeqHGdE77GU4Kc+0nj0MsFv3z/3jZcwQ+nLzA==
   dependencies:
     chalk "4.1.2"
     commander "^9.0.0"
 
-"@koinos/sdk-as@^0.4.2":
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/@koinos/sdk-as/-/sdk-as-0.4.2.tgz#57b8525b114b5ad8e067668993667aebc3caf74d"
-  integrity sha512-X5qVMALyg3Src+Wvm42yTsyhdLlg6TrFmDB/z08MjtKkpXWdIaIwVdm0nKRGlZpyIEiD6OIjcvXmtZV6E3ZeVQ==
+"@koinos/sdk-as@^0.4.3":
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@koinos/sdk-as/-/sdk-as-0.4.3.tgz#440b2482022f5a2585aab1cb27833218556cce6e"
+  integrity sha512-tcVvgpWqAn2yS8jypL1OTwteMCHwnVZvYfZz5nSPK0QgVJUft/Ej0jMQzjImsQVVosMQvblyOQ/y9453PsRdMw==
   dependencies:
     "@as-covers/core" "^0.2.1"
     "@as-pect/cli" "^6.2.4"
@@ -756,7 +756,7 @@
     "@koinos/as-proto-gen" "^0.4.3"
     "@koinos/mock-vm" "^0.4.1"
     "@koinos/proto-as" "^0.4.3"
-    "@koinos/sdk-as-cli" "^0.4.0"
+    "@koinos/sdk-as-cli" "^0.4.1"
     "@roaminroe/protoc" "^2.4.0"
     as-bignum "^0.2.18"
     as-proto "npm:@koinos/as-proto"

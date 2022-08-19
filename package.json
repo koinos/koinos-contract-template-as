@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "license": "MIT",
   "devDependencies": {
-    "@koinos/sdk-as": "^0.4.2",
+    "@koinos/sdk-as": "^0.4.3",
     "@types/jest": "^27.5.1",
     "@typescript-eslint/eslint-plugin": "^5.10.0",
     "@typescript-eslint/parser": "^5.10.0",
@@ -17,7 +17,7 @@
   "scripts": {
     "lint": "eslint --max-warnings 0 --ext ts \"*/assembly/**/*.ts\"",
     "build:debug": "koinos-sdk-as-cli build debug",
-    "build:release": "koinos-sdk-as-cli build-all release 0 .proto",
+    "build:release": "koinos-sdk-as-cli build-all release 0 *.proto",
     "test": "koinos-sdk-as-cli run-tests",
     "integration-tests": "yarn jest",
     "local-koinos-auto": "local-koinos start -i 5000",
