@@ -7,3 +7,7 @@ build
 *.spec.map
 *.spec.wat
 yarn-error.log
+
+assembly/proto/template.ts
+assembly/index.ts
+assembly/Template.boilerplate.ts
